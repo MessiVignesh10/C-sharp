@@ -1,0 +1,16 @@
+using System;
+
+public class HelloWorld
+{
+    static void Main(string[] args)
+    {
+        int i = 3;
+        while (i < 6)
+        {
+           Console.WriteLine(i);
+           
+           i++;
+        }
+    
+    }
+}

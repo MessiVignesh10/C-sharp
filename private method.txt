@@ -1,0 +1,22 @@
+// private class tutorial
+
+
+using System;
+class Launch 
+{
+    private int  year=2003;
+
+// It shows the error the class is inaccessible due to its protection level
+
+}
+class car
+{
+    private string model= "Range rover";
+    static void Main (string[] args)
+    {
+        car myobject = new car();
+        Launch myobject2 = new Launch();
+        Console.WriteLine("The new car name is "+myobject.model);
+        Console.WriteLine("The new car launch year is "+myobject2.year);
+    }
+}

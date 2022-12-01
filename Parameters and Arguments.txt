@@ -1,0 +1,20 @@
+//Passing the parameters and arguments through the class
+
+using System;
+public class Vignesh{
+    static void football(string fname="Default"){
+        Console.WriteLine("Hi " +fname+" from football method");
+    }
+    static void Basketball(int age){
+        Console.WriteLine("Hi "+age+" From BasketBall method");
+    }
+    static void Main(string[] args){
+        football("Vignesh");
+        Basketball(35);
+        football("Messi");
+        Basketball(24);
+        football("Neymar");
+        Basketball(23);
+        football();
+    }
+}

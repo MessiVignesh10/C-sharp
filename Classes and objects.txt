@@ -1,0 +1,16 @@
+// Classes and Objects
+
+using System;
+class Learning
+{
+    string color="RED";
+    int speed = 300;
+    public static void Main(string[] args)
+    {
+        
+    Learning myobject = new Learning();
+    
+    Console.WriteLine(myobject.color);
+    Console.WriteLine("The Speed of learning must be more than "+myobject.speed);
+    } 
+}
